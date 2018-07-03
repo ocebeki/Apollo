@@ -1,0 +1,58 @@
+.sliderFull__background {
+    position: relative;
+}
+.background {
+    img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 100;
+        width: 28%;
+    }
+}
+
+.carousel-control-next {
+    background: white;
+    color: black;
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(0, -50%);
+    @media(max-width: 800px) {
+        height: 40px;
+        width: 40px;
+    }
+    @media(max-width: 400px) {
+        background-color: transparent;
+    }
+}
+
+.carousel-control-prev {
+    background: white;
+    color: black;
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+     z-index: 9999;
+    transform: translate(0, -50%);
+    @media(max-width: 800px) {
+        height: 40px;
+        width: 40px;
+    
+    }
+    @media(max-width: 400px) {
+        background-color: transparent;
+    }
+}
+
+.carousel-control-next-icon {
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}

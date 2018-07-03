@@ -1,0 +1,42 @@
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+.cf:after {
+    clear: both;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #222;
+}
+p {
+    line-height: 1.7;
+    font-style: oblique;
+    font-family: serif;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 18px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+section {
+    position: relative;
+    background-color: #efefef;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.bold {
+    font-weight: bold;
+}
+.light {
+    font-weight: lighter;
+}

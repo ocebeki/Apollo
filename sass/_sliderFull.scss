@@ -1,6 +1,7 @@
 .sliderFull__background {
     position: relative;
 }
+
 .background {
     img {
         position: absolute;
@@ -20,10 +21,12 @@
     top: 50%;
     right: 10px;
     transform: translate(0, -50%);
+
     @media(max-width: 800px) {
         height: 40px;
         width: 40px;
     }
+
     @media(max-width: 400px) {
         background-color: transparent;
     }
@@ -37,13 +40,15 @@
     position: absolute;
     top: 50%;
     left: 10px;
-     z-index: 9999;
+    z-index: 9999;
     transform: translate(0, -50%);
+
     @media(max-width: 800px) {
         height: 40px;
         width: 40px;
-    
+
     }
+
     @media(max-width: 400px) {
         background-color: transparent;
     }

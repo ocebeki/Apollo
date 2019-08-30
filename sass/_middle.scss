@@ -6,31 +6,34 @@
     background-position: left bottom;
     background-repeat: no-repeat;
     background-size: contain;
+
     &__box {
         width: 50%;
         float: left;
-        @media(max-width: 860px){
+
+        @media(max-width: 860px) {
             width: 100%;
             text-align: center;
         }
-        
-        &:nth-child(2){
-            @media(max-width: 860px){
-            display: none;
+
+        &:nth-child(2) {
+            @media(max-width: 860px) {
+                display: none;
             }
         }
     }
-    
+
     img {
         width: 100%;
     }
-    
+
     p {
         padding-right: 35%;
-        @media(max-width: 860px){
+
+        @media(max-width: 860px) {
             padding-right: 0;
         }
-        
+
         &::after {
             content: "";
             margin-top: 6%;
@@ -38,7 +41,8 @@
             width: 1px;
             height: 70px;
             background-color: #111;
-            @media(max-width: 860px){
+
+            @media(max-width: 860px) {
                 display: none;
             }
         }
